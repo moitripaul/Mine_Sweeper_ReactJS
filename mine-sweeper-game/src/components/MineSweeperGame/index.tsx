@@ -18,7 +18,6 @@ class MineSweeperGame extends React.Component{
         const {length,breadth,mines} = this.state;
         return(
             <div className="game-container"> 
-                <button>Start</button>
                 <GameBoard length={length} breadth={breadth} mines={mines}/>
             </div>
         )
